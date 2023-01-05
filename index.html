@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Appointment App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="title"style="text-align:center">Book An Appointment</h1>
+    <header>
+
+    <section class="content">
+        <h3 class="secondTitle"style="text-align:center"><strong>Enter User Details </strong></h3>
+        <class class="form">
+            <form id="userForm">
+                <div class="formLine center">
+                    <span for="name">Name :</span>
+                    <input type="text" id="name">
+                </div>
+                <div class="formLine right">
+                    <span for="phone">Phone no :</span>
+                    <input type="text" id="phone">
+                </div>
+                <button type="submit" class="buttonSave">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone No</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody id="userTable">
+            </tbody>
+        </table>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js" integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
